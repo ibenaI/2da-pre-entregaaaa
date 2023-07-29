@@ -51,7 +51,7 @@ const productos = [
             }
             let unidades = parseInt(prompt("Igrese la cantidad que desea llevar: "));
     
-            changuito.push(new Producto(producto, unidades, precio));
+            changuito.push(new Producto(producto, precio, unidades));
     
         } else {
             alert("No hay stock para ese producto :/")
